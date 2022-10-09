@@ -7,7 +7,9 @@ After putting the datapack and the resource pack in their respective folder, run
 
 - Place cards hidden/open/dynamically
 - Take cards hidden/open
-- What kind of deck gets created when a new one gets placed
+- What kind of deck gets created when a new one gets placed (beaver gang or other games)
+
+For example, at the beginning of the game, you want to take&place the cards hidden, so you dont see them.
 
 You can also craft decks and piles with paper and light blue / red dye.
 
