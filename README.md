@@ -17,6 +17,7 @@ Because I still cant manage to make a fricking tick.json to work, run `function 
 
 ## Mechanics:
 A deck is where you take cards, a pile is where you can place multiple cards. Single cards can be placed anywhere, but only stacked on pile items.
+Every deck and pile has its own unique id and the content is globally saved in a storage.
 
 - Place card on pile/floor, take from deck: right click.
 - Shuffle a deck: Sneak + right click it as often as you want.
