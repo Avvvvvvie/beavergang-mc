@@ -13,6 +13,8 @@ For example, at the beginning of the game, you want to take&place the cards hidd
 
 You can also craft decks and piles with paper and light blue / red dye.
 
+Because I still cant maneage to make a fricking tick.json to work, run `function gang:turn/detect` on repeat.
+
 ## Mechanics:
 A deck is where you take cards, a pile is where you can place multiple cards. Single cards can be placed anywhere, but only stacked on pile items.
 
