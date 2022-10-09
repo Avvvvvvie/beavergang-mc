@@ -25,3 +25,6 @@ A deck is where you take cards, a pile is where you can place multiple cards. Si
 - Convert deck to pile (requires empty pile item in inventory), vice-versa: Hold it in your hand + sneak
 
 Keep in mind that a card is actually an item frame, in creative, you dont get it when you destroy it.
+
+## screenshots
+![all cards](https://github.com/Avvvvvvie/beavergang-mc/blob/main/screenshots/2022-01-02_11.12.25.png)
