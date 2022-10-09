@@ -28,3 +28,5 @@ Keep in mind that a card is actually an item frame, in creative, you dont get it
 
 ## screenshots
 ![all cards](https://github.com/Avvvvvvie/beavergang-mc/blob/main/screenshots/2022-01-02_11.12.25.png)
+![deck id system](https://github.com/Avvvvvvie/beavergang-mc/blob/main/screenshots/2022-01-02_11.15.15.png)
+![some cards and decks on the floor](https://github.com/Avvvvvvie/beavergang-mc/blob/main/screenshots/2022-04-24_15.13.03.png)
