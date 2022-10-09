@@ -1,0 +1,95 @@
+{
+  "type": {
+    "ultrawarm": false,
+    "natural": true,
+    "piglin_safe": false,
+    "respawn_anchor_works": true,
+    "bed_works": true,
+    "has_raids": false,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "coordinate_scale": 1,
+    "ambient_light": 0.5,
+    "fixed_time": 12500,
+    "logical_height": 2048,
+    "effects": "minecraft:overworld",
+    "infiniburn": "minecraft:infiniburn_overworld",
+    "min_y": -16,
+    "height": 2048
+  },
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1471116951,
+    "settings": {
+      "sea_level": 80,
+      "disable_mob_generation": true,
+      "noise_caves_enabled": true,
+      "noodle_caves_enabled": true,
+      "aquifers_enabled": false,
+      "ore_veins_enabled": true,
+      "legacy_random_source": true,
+      "default_block": {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      "default_fluid": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "noise": {
+        "min_y": 0,
+        "height": 160,
+        "size_horizontal": 1,
+        "size_vertical": 2,
+        "island_noise_override": false,
+        "sampling": {
+          "xz_scale": 0.9999999814507745,
+          "y_scale": 0.9999999814507745,
+          "xz_factor": 80,
+          "y_factor": 160
+        },
+        "bottom_slide": {
+          "target": 0.1171875,
+          "size": 3,
+          "offset": 0
+        },
+        "top_slide": {
+          "target": -0.078125,
+          "size": 2,
+          "offset": 8
+        },
+        "terrain_shaper": {
+          "offset": 0,
+          "factor": 0,
+          "jaggedness": 0
+        }
+      },
+      "surface_rule": {
+        "type": "minecraft:sequence",
+        "sequence": []
+      },
+      "structures": {
+        "stronghold": {
+          "distance": 32,
+          "spread": 3,
+          "count": 128
+        },
+        "structures": {
+          "minecraft:ruined_portal": {
+            "spacing": 40,
+            "separation": 15,
+            "salt": 34222645
+          }
+        }
+      }
+    },
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "gang:gangbiome"
+    }
+  }
+}

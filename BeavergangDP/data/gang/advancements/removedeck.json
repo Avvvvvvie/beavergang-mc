@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "looking_at": {
+              "type": "minecraft:item_frame",
+              "nbt": "{Invisible:1b}"
+            }
+          }
+        },
+        "location": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "gang:deck/remove"
+  }
+}

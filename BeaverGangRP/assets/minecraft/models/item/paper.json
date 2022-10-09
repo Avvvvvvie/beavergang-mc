@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/paper"
+	},
+
+	"overrides": [
+
+		{"predicate": {"custom_model_data":10000001}, "model": "item/slimesettings"}
+	]
+}
