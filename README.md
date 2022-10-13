@@ -1,6 +1,6 @@
 # beavergang-mc
 
-Have you ever wanted to play beaver gang in minecraft? No? Well now you can.
+Have you ever wanted to play beaver gang in minecraft? No? Well now you can anyways.
 
 ## How to use:
 After putting the datapack and the resource pack in their respective folder, run `function gang:setup`. If you run `function gang:reset`, you will automatically get some decks and piles (it also removes all previously existing decks/cards). You will get a settings "block" to place. It can switch between:
