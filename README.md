@@ -19,7 +19,7 @@ Because I still can't manage to get the tick.json to work, you might need to run
 A deck is where you take cards, a pile is where you can place multiple cards. Single cards can be placed anywhere, but only stacked on pile items.
 
 To...
-- Place a card on pile/floor, take from deck: right click.
+- Place a card on pile/floor or take from deck: right click.
 - Shuffle a deck: Sneak + right click it as often as you want.
 - To hide/show a card: Right click without sneaking. 
 - To rotate a card/deck/pile: sneak + right click.
