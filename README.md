@@ -1,6 +1,7 @@
 # beavergang-mc 2.0 (1.19.4 rc-2)
 
 Did you ever want to play beaver gang in minecraft? No? Well now you can anyways.
+This pack should work with 1.20.1
 
 ## How to use:
 After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
@@ -33,21 +34,22 @@ You may use any af these funcitons. Includes:
 - if it ever happens that you can't destroy a card because it has no hitbox, run `beavergang:debug/kill_nearest`
 
 ## technical stuff
-You can expand the system to add any amount of cards or placeable items.
+You can expand the system to add any amount of cards or other placeable items.
 
 there are the following flags:
 - beavergang item: `beavergang:1b`
-- placed beavergang item: Tags: `beavergang`
-- settings_item: `beavergang_settings:1b`
-- settings interaction entities: Tags: `beavergang_settings`
+- placed beavergang item (entity): has tag `beavergang`
+- settings item: `beavergang_settings:1b`
+- settings interaction entities: has tag `beavergang_settings`
 
-Any shield with these flags can interact with the beavergang/beavergang_settings logic.
+Any shield with the beavergang tag / item with the settings tag can interact with the beavergang/beavergang_settings logic.
 
-The "type" item tag of a beavergang:1b item defines the hitbox size, the model, scale and translation. To make new types, create an new file in `object/custom` (copy it from `pillow.mcfunction`) then, link the function in `object/create`. define the item name in `object/item/name`
+a beavergang item has another property, the type.
+It defines the hitbox size, the model, display scale and translation. Cards are type 1, decks are type 2. To make new types, create an new file in `object/custom` (copy it from `pillow.mcfunction`) then, link the function in `object/create`. define the item name in `object/item/name`
 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
-To add new cards, just add the model in the resourcepack in shield.json and edit `set_model` in `the debug/give_cards` to get it. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
+To add new cards, just add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get it. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
 
 ## screenshots
 
