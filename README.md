@@ -44,12 +44,12 @@ there are the following flags:
 
 Any shield with the beavergang tag / item with the settings tag can interact with the beavergang/beavergang_settings logic.
 
-a beavergang item has another property, the type.
+A beavergang item also has a `type` property.
 It defines the hitbox size, the model, display scale and translation. Cards are type 1, decks are type 2. To make new types, create an new file in `object/custom` (copy it from `pillow.mcfunction`) then, link the function in `object/create`. define the item name in `object/item/name`
 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
-To add new cards, just add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get it. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
+To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
 
 ## screenshots
 
