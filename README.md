@@ -13,8 +13,6 @@ You will get a settings items, where you can configure the following:
 - Take cards hidden, open or dynamic
 - Get yourself a deck with shift
 
-For example, at the beginning of the game, you want to take/place the cards hidden, so you dont know what kind of cards you have.
-
 ## Controls:
 
 ### obviously:
