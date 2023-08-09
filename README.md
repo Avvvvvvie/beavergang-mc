@@ -11,7 +11,7 @@ You will get a settings items, where you can configure the following:
 
 - Place cards hidden, open or dynamic
 - Take cards hidden, open or dynamic
-- Get yourself a deck with shift
+- Get yourself different decks with shift
 
 ## Controls:
 
