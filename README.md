@@ -7,7 +7,7 @@ The 2.0 version was tested in 1.19.4 rc-2 and 1.20.1
 
 ## How to use:
 After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
-You will get a settings items, where you can configure the following:
+You will get a "settings item", with which you can configure the following:
 
 - Place cards hidden, open or dynamic
 - Take cards hidden, open or dynamic
