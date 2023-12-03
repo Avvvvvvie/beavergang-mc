@@ -50,11 +50,3 @@ It defines the hitbox size, the model, display scale and translation. Cards are 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
 To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
-
-## screenshots
-
-this big card boi is flying towards me?
-![gameplay](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-03-12_21.09.47.png)
-
-fancy cards
-![fancy cards](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-03-10_23.33.07.png)
