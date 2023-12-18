@@ -13,6 +13,8 @@ You will get a "settings item", with which you can configure the following:
 - Take cards hidden, open or dynamic
 - Get yourself different decks with shift
 
+(A hidden card shows the back of the card on both sides. This way neither you or other players know what card it is.)
+
 ## Controls:
 
 ### obviously:
