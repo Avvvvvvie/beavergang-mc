@@ -2,15 +2,19 @@
 
 Did you ever want to play beaver gang in minecraft? No? Well now you can anyways.
 
+## Versions
+The 2.0 version was tested in 1.19.4 rc-2 and 1.20.1 
+
 ## How to use:
 After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
-You will get a settings items, where you can configure the following:
+You will get a "settings item", with which you can configure the following:
 
 - Place cards hidden, open or dynamic
 - Take cards hidden, open or dynamic
-- Get yourself a deck with shift
+- Get yourself different decks with shift
 
-For example, at the beginning of the game, you want to take/place the cards hidden, so you dont know what kind of cards you have.
+A hidden card shows the back of the card on both sides. This way neither you or other players know what card it is.
+If you take cards hidden/open, it will automatically be hidden/open in your hand, no matter how the card was placed.
 
 ## Controls:
 
@@ -27,32 +31,25 @@ decks and cards can be placed on other decks and cards
 - shift + click with deck in hand: flips all the cards in the deck to the same direction (")
 
 ## debug functions:
-You may use any af these funcitons. Includes:
+You may use any af these functions. Includes:
 - `beavergang:debug/give_settings`
-- `beavergang:debug/toggle_limit`: if activated, any deck you palce generates a massive pile of cards up to the command chain limit. The last card might be bugged depending on the exact limit.
-- if it ever happens that you can't destroy a card because it has no hitbox, run `beavergang:debug/kill_nearest`
+- `beavergang:debug/toggle_limit`: if activated, any deck you place generates a massive pile of cards up to the command chain limit. The last card might be bugged depending on the exact limit.
+- if it ever happens that you can't destroy a card because it is bugged, run `beavergang:debug/kill_nearest`
 
 ## technical stuff
-You can expand the system to add any amount of cards or placeable items.
+You can expand the system to add any amount of cards or other placeable items.
 
 there are the following flags:
 - beavergang item: `beavergang:1b`
-- placed beavergang item: Tags: `beavergang`
-- settings_item: `beavergang_settings:1b`
-- settings interaction entities: Tags: `beavergang_settings`
+- placed beavergang item (entity): has tag `beavergang`
+- settings item: `beavergang_settings:1b`
+- settings interaction entities: has tag `beavergang_settings`
 
-Any shield with these flags can interact with the beavergang/beavergang_settings logic.
+Any shield with the beavergang tag / item with the settings tag can interact with the beavergang/beavergang_settings logic.
 
-The "type" item tag of a beavergang:1b item defines the hitbox size, the model, scale and translation. To make new types, create an new file in `object/custom` (copy it from `pillow.mcfunction`) then, link the function in `object/create`. define the item name in `object/item/name`
+A beavergang item also has a `type` property.
+It defines the hitbox size, the model, display scale and translation. Cards are type 1, decks are type 2. To make new types, create a new file in `object/custom` (copy it from `pillow.mcfunction`, which is type 3) then, link the function in `object/create`. define the item name in `object/item/name`
 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
-To add new cards, just add the model in the resourcepack in shield.json and edit `set_model` in `the debug/give_cards` to get it. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
-
-## screenshots
-
-this big card boi is flying towards me?
-![gameplay](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-03-12_21.09.47.png)
-
-fancy cards
-![fancy cards](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-03-10_23.33.07.png)
+To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
