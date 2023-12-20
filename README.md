@@ -52,4 +52,4 @@ It defines the hitbox size, the model, display scale and translation. Cards are 
 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
-To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model. The custom_model_data of the card should be an even number, the next uneven number the card when it is hidden.
+To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model.
