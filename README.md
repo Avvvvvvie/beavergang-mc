@@ -19,7 +19,7 @@ If you take cards hidden/open, it will automatically be hidden/open in your hand
 ## Controls:
 
 ### obviously:
-hold any beavergang item + place/destroy -> place/destroy
+hold any beavergang item + place/destroy -> place/destroy.
 decks and cards can be placed on other decks and cards
 
 ### special controls:
