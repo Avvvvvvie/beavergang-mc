@@ -20,7 +20,7 @@ If you take cards hidden/open, it will automatically be hidden/open in your hand
 
 ### obviously:
 hold any beavergang item + place/destroy -> place/destroy.
-decks and cards can be placed on top of other decks and cards
+decks and cards merge when placed on top of other decks and cards
 
 ### special controls:
 - shift + click on placed card: flip the card
