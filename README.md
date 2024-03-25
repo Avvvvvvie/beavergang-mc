@@ -21,8 +21,8 @@ If you take cards hidden/open, it will automatically be hidden/open in your hand
 ## Controls:
 
 ### obviously:
-hold any beavergang item + place/destroy -> place/destroy.
-decks and cards merge when placed on top of other decks and cards
+Hold any beavergang item + place/destroy -> place/destroy.
+Decks and cards merge when placed on top of other decks and cards
 
 ### special controls:
 - shift + click on placed card: flip the card
@@ -42,7 +42,7 @@ You may use any af these functions. Includes some utilities:
 ## technical stuff
 You can expand the system to add any amount of cards or other placeable items.
 
-there are the following flags:
+There are the following flags:
 - beavergang item: `beavergang:1b`
 - placed beavergang item (entity): has tag `beavergang`
 - settings item: `beavergang_settings:1b`
