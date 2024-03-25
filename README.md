@@ -1,4 +1,4 @@
-# beavergang-mc 2.0 (1.19.4 rc-2)
+# beavergang-mc 2.0
 
 Did you ever want to play beaver gang in minecraft? No? Well now you can anyways.
 
