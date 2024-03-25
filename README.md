@@ -37,7 +37,7 @@ decks and cards merge when placed on top of other decks and cards
 You may use any af these functions. Includes some utilities:
 - `beavergang:debug/give_settings`
 - `beavergang:debug/toggle_limit`: if activated, any deck you place generates a massive pile of cards up to the command chain limit. The last card might be bugged depending on the exact limit.
-- if it ever happens that you can't destroy a card because it is bugged, run `beavergang:debug/kill_nearest`
+- if you can't destroy a card because it is bugged, run `beavergang:debug/kill_nearest`
 
 ## technical stuff
 You can expand the system to add any amount of cards or other placeable items.
