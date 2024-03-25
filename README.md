@@ -4,6 +4,7 @@ Did you ever want to play beaver gang in minecraft? No? Well now you can anyways
 
 ## Versions
 Version 2 is for 1.19.4 rc-2 upwards. However, starting from 1.20.5, it will not be compatible anymore.
+Version 1 is for 1.18+
 
 ## How to use:
 After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
