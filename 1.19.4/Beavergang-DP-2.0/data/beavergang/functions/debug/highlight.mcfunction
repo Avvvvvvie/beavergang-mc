@@ -1,1 +1,0 @@
-execute at @e[scores={beavergang=1..}] run particle happy_villager
