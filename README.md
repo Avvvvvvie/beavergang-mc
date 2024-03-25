@@ -51,7 +51,9 @@ there are the following flags:
 Any shield with the beavergang tag / item with the settings tag can interact with the beavergang/beavergang_settings logic.
 
 A beavergang item also has a `type` property.
-It defines the hitbox size, the model, display scale and translation. Cards are type 1, decks are type 2. To make new types, create a new file in `object/custom` (copy it from `pillow.mcfunction`, which is type 3) then, link the function in `object/create`. define the item name in `object/item/name`
+It defines the hitbox size, the model, display scale and translation. Cards are type 1, decks are type 2.
+
+To make new types, create a new file in `object/custom` (copy it from `pillow.mcfunction`, which is type 3) then, link the function in `object/create`. define the item name in `object/item/name`
 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
