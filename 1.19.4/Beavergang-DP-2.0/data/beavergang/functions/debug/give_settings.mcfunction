@@ -1,0 +1,1 @@
+give @s shield{beavergang_settings:1b, CustomModelData: 1999997,display:{Name:'{"text":"settings"}'}}
