@@ -31,6 +31,7 @@ decks and cards merge when placed on top of other decks and cards
 - shift & destroy deck: destroys entire deck
 - shift + click with card in hand: flips the card in your hand (only works if you dont target a placed item, otherwise that one will get flipped/shuffled)
 - shift + click with deck in hand: flips all the cards in the deck to the same direction (")
+- to interact with settings, click the floating text
 
 ## debug functions:
 You may use any af these functions. Includes:
