@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "beavergang:settings"
+      }
+    }
+  },
+  "rewards": {
+    "function": "beavergang:crafting/settings"
+  }
+}
