@@ -1,0 +1,2 @@
+execute if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{type:1}}}} run function beavergang:events/interaction_paths/holds_card
+execute if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{type:2}}}} run function beavergang:events/interaction_paths/holds_card

@@ -1,0 +1,2 @@
+execute if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{type:2}}}} run function beavergang:events/swap/deck
+execute if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{type:1}}}} run function beavergang:events/swap/card

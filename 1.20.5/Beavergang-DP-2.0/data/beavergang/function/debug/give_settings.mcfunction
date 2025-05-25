@@ -1,0 +1,1 @@
+give @p shield[custom_data={beavergang_settings:1b},custom_model_data={floats:[1999997]},custom_name="settings"] 1

@@ -1,0 +1,188 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:custom_model_data",
+		"fallback": {
+			"type": "minecraft:condition",
+			"on_false": {
+				"type": "minecraft:special",
+				"base": "minecraft:item/shield",
+				"model": {
+				"type": "minecraft:shield"
+				}
+			},
+			"on_true": {
+				"type": "minecraft:special",
+				"base": "minecraft:item/shield_blocking",
+				"model": {
+				"type": "minecraft:shield"
+				}
+			},
+			"property": "minecraft:using_item"
+		},
+		"index": 0,
+		"entries": [
+			{
+				"threshold": 1999996,
+				"model": {
+					"type": "model",
+					"model": "item/beaverdeck1"
+				}
+			},
+			{
+				"threshold": 1999997,
+				"model": {
+					"type": "model",
+					"model": "item/settingitem"
+				}
+			},
+			{
+				"threshold": 1999998,
+				"model": {
+					"type": "model",
+					"model": "item/deck_base"
+				}
+			},
+			{
+				"threshold": 1999999,
+				"model": {
+					"type": "model",
+					"model": "item/beavercardall_flipped"
+				}
+			},
+			{
+				"threshold": 10000000,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard0"
+				}
+			},
+			{
+				"threshold": 10000001,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard1"
+				}
+			},
+			{
+				"threshold": 10000002,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard2"
+				}
+			},
+			{
+				"threshold": 10000003,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard3"
+				}
+			},
+			{
+				"threshold": 10000004,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard4"
+				}
+			},
+			{
+				"threshold": 10000005,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard5"
+				}
+			},
+			{
+				"threshold": 10000006,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard6"
+				}
+			},
+			{
+				"threshold": 10000007,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard7"
+				}
+			},
+			{
+				"threshold": 10000008,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard8"
+				}
+			},
+			{
+				"threshold": 10000009,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard9"
+				}
+			},
+			{
+				"threshold": 10000010,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard10"
+				}
+			},
+			{
+				"threshold": 10000011,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard11"
+				}
+			},
+			{
+				"threshold": 10000012,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard12"
+				}
+			},
+			{
+				"threshold": 10000013,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard13"
+				}
+			},
+			{
+				"threshold": 10000014,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard14"
+				}
+			},
+			{
+				"threshold": 10000015,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard15"
+				}
+			},
+			{
+				"threshold": 10000016,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard16"
+				}
+			},
+			{
+				"threshold": 10000017,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard17"
+				}
+			},
+			{
+				"threshold": 10000018,
+				"model": {
+					"type": "model",
+					"model": "item/beavercard18"
+				}
+			}
+		]
+	}
+}

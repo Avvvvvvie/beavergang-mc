@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/mace"
+    },
+    "cases": [
+      {
+        "when": "bat",
+        "model": {
+          "type": "model",
+          "model": "item/bat"
+        }
+      },
+      {
+        "when": "test",
+        "model": {
+          "type": "model",
+          "model": "item/diamond_sword"
+        }
+      }
+    ]
+  }
+}

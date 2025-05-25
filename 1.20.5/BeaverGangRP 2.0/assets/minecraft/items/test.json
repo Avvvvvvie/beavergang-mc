@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "select",
+    "fallback": {
+      "type": "model",
+      "model": "item/settingitem"
+    }
+  }
+}
