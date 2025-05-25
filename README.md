@@ -3,7 +3,7 @@
 Did you ever want to play beaver gang in minecraft? No? Well now you can anyways.
 
 ## Versions
-Version 2 is for 1.20.5
+Version 3 is for 1.20.5
 
 Version 2 is for 1.19.4 rc-2 until 1.20.4
 
