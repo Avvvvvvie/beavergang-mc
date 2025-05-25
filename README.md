@@ -61,7 +61,7 @@ Items with type 1&2 behave specially. Only these items can be stacked and placin
 
 To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model.
 
-## screenshots
+## Screenshots
 ![all cards](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-12-20_17.05.25.png)
 ![decks](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-12-20_17.07.42.png)
 ![settings](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-12-20_17.09.11.png)
