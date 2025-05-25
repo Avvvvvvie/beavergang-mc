@@ -22,26 +22,26 @@ If you take cards hidden/open, it will automatically be hidden/open in your hand
 
 ## Controls:
 
-### obviously:
+### Obviously:
 Hold any beavergang item + place/destroy -> place/destroy.
 Decks and cards merge when placed on top of other decks and cards
 
-### special controls:
+### Special controls:
 - shift + click on placed card: flip the card
 - shift + click on placed deck: shuffle the deck
 - destroy deck: only destroys topmost card
 - shift & destroy deck: destroys entire deck
-- shift + click with card in hand: flips the card in your hand (only works if you dont target a placed item, otherwise that one will get flipped/shuffled)
+- shift + click with card in hand: flips the card in your hand (only works if you are not targeting a block in front of you)
 - shift + click with deck in hand: flips all the cards in the deck to the same direction (")
 - to interact with settings, click the floating text
 
-## debug functions:
-You may use any af these functions. Includes some utilities:
+## Debug functions:
+You may use any of these functions. Includes some utilities:
 - `beavergang:debug/give_settings`
 - `beavergang:debug/toggle_limit`: if activated, any deck you place generates a massive pile of cards up to the command chain limit. The last card might be bugged depending on the exact limit.
 - if you can't destroy a card because it is bugged, run `beavergang:debug/kill_nearest`
 
-## technical stuff
+## Technical stuff
 You can expand the system to add any amount of cards or other placeable items.
 
 There are the following flags:
