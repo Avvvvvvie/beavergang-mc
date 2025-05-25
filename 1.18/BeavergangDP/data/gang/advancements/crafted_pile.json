@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gang:pile"
+      }
+    }
+  },
+  "rewards": {
+    "function": "gang:crafting/pile"
+  }
+}

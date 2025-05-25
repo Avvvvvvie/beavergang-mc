@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/ptd"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 10000001
+			},
+			"model": "item/settingitem"
+		}
+	]
+}

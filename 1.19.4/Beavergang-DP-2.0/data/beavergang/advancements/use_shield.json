@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ],
+          "nbt": "{beavergang:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "beavergang:events/use_shield"
+  }
+}
