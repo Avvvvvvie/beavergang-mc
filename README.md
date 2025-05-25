@@ -1,9 +1,11 @@
-# beavergang-mc 2.0
+# beavergang-mc 3.0
 
 Did you ever want to play beaver gang in minecraft? No? Well now you can anyways.
 
 ## Versions
-Version 2 is for 1.19.4 rc-2 upwards. Starting from 1.20.5, it will not be compatible anymore.
+Version 3 is for 1.20.5
+
+Version 2 is for 1.19.4 rc-2 until 1.20.4
 
 Version 1 is for 1.18+
 
