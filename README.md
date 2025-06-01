@@ -13,12 +13,11 @@ Version 1 is for 1.18
 After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
 You will get a "settings item", with which you can configure the following:
 
-- Place cards hidden, open or dynamic
-- Take cards hidden, open or dynamic
+- Always place cards hidden, open or dynamic
+- Always take cards hidden, open or dynamic
 - Get yourself different decks with shift
 
-A hidden card shows the back of the card on both sides. This way neither you or other players know what card it is.
-If you take cards hidden/open, it will automatically be hidden/open in your hand, no matter how the card was placed.
+The use of the settings is to 100% guarantee that other players will not be able to see the cards. However the game is also playable without using the settings. 
 
 ## Controls:
 
