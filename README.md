@@ -58,7 +58,7 @@ To make new types, create a new file in `object/custom` (copy it from `pillow.mc
 
 Items with type 1&2 behave specially. Only these items can be stacked and placing a type 2 item always creates type 1 items.
 
-To add new cards, add the model in the resourcepack in shield.json and edit `set_model` in the `debug/give_cards` to get a card with the new model.
+To add a new card model, add the model in the resourcepack in shield.json. To get the card, edit `set_model` in the `debug/give_cards` or put it into a deck.
 
 ## Screenshots
 ![all cards](https://github.com/Avvvvvvie/beavergang-mc/blob/main/1.19.4/screenshots/2023-12-20_17.05.25.png)
