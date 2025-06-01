@@ -7,7 +7,7 @@ Version 3 is for 1.20.5
 
 Version 2 is for 1.19.4 rc-2 until 1.20.4
 
-Version 1 is for 1.18+
+Version 1 is for 1.18
 
 ## How to use:
 After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
