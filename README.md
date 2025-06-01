@@ -15,7 +15,7 @@ You will get a "settings item", with which you can configure the following:
 
 - Always place cards hidden, open or dynamic
 - Always take cards hidden, open or dynamic
-- Get yourself different decks with shift
+- Get yourself different deck variations with shift
 
 The use of the settings is to 100% guarantee that other players will not be able to see the cards. However the game is also playable with only the dynamic mode. 
 
