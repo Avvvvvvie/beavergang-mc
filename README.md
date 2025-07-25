@@ -10,14 +10,14 @@ Version 2 is for 1.19.4 rc-2 until 1.20.4
 Version 1 is for 1.18
 
 ## How to use:
-After putting the datapack and the resource pack in their respective folder, run `function beavergang:setup`.
+After putting the datapack and the resource pack in their respective folder, run `/function beavergang:setup`.
 You will get a "settings item", with which you can configure the following:
 
 - Always place cards hidden, open or dynamic
 - Always take cards hidden, open or dynamic
 - Get yourself different deck variations with shift
 
-The use of these settings is to 100% guarantee that other players will not be able to see your cards. The game is also playable with only the default dynamic mode. 
+The use of these settings is to be able to 100% guarantee that other players will not be able to see your cards. The game is also playable with only the default dynamic mode. 
 
 ## Controls:
 
