@@ -43,7 +43,7 @@ You may use any of these functions. Includes some utilities:
 ## Technical stuff
 You can expand the system to add any amount of cards or other placeable items.
 
-There are the following flags:
+Following flags exist:
 - beavergang item: `beavergang:1b`
 - placed beavergang item (entity): has tag `beavergang`
 - settings item: `beavergang_settings:1b`
